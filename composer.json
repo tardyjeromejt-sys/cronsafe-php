@@ -1,0 +1,28 @@
+{
+    "name": "cronsafe/cronsafe-php",
+    "description": "PHP SDK for CronSafe cron job monitoring",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["cron", "monitoring", "cronsafe", "healthcheck", "uptime", "devops"],
+    "homepage": "https://getcronsafe.com",
+    "authors": [
+        {
+            "name": "Jerome Tardy",
+            "email": "tardyjerome.jt@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CronSafe\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    },
+    "support": {
+        "issues": "https://github.com/tardyjeromejt-sys/cronsafe-php/issues",
+        "source": "https://github.com/tardyjeromejt-sys/cronsafe-php"
+    }
+}
